@@ -6,7 +6,7 @@ var util = require( "util" ),
     yosay = require( "yosay" ),
     chalk = require( "chalk" );
 
-
+// TODO : generate jenez files (cf. http://yeoman.io/generators.html#writing-your-first-generator)
 var KrknJenezGenerator = yeoman.generators.Base.extend( {
     init: function() {
         this.pkg = require( "../package.json" );
