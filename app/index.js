@@ -22,7 +22,7 @@ var KrknJenezGenerator = yeoman.generators.Base.extend( {
         var done = this.async();
 
         // Have Yeoman greet the user.
-        this.log( yosay( "Welcome to the marvelous KrknJenez generator!" ) );
+        this.log( yosay( "Welcome to the KRKN jenez generator." ) );
 
         var prompts = [ {
             type: "confirm",
