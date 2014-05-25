@@ -1,0 +1,36 @@
+{
+  "name": "generator-krkn-jenez",
+  "version": "0.0.0",
+  "description": "Yeoman generator for krkn's node projects.",
+  "license": "UNLICENSE",
+  "main": "app/index.js",
+  "repository": "krkn/generator-krkn-jenez",
+  "author": {
+    "name": "KRKN",
+    "email": "info@krkn.be",
+    "url": "https://github.com/krkn"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16",
+    "chalk": "~0.4",
+    "yosay": "~0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0"
+  }
+}
